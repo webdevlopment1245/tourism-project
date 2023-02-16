@@ -1,0 +1,85 @@
+*{
+    margin: 0%; padding: 0%
+    
+}
+
+.bgimage{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(27deg,#004E95 50%,#003E65 50%); */
+    
+    background-image: url("/public/image/LOGBG.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
+.lgimage{
+    width: 30PX;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-image: url("/public/image/LOGBG.jpeg"); */
+    background-image: linear-gradient(27deg,#003E65 50%,#004E95 50%);
+    
+}
+#profile{
+    width:120px ;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: calc( (350px - 120px ) /2);
+    
+}
+h2{
+    text-align: center;
+    color: azure;
+    text-transform: uppercase;
+  font-size: 2em;
+  word-spacing: 10px;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  text-shadow: -2px,2px,1px,#004E95;
+}
+.input{
+    width:  80%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    padding: 0,10px;
+    box-sizing: border-box;
+}
+::placeholder{
+    letter-spacing: 3px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+button{ width:  80%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    padding: 0,10px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #0a84c6;
+    border: none;
+    font-size: 20px;
+    
+}
+.forget{
+    width: 80%;
+    line-height: 40px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: dodgerblue;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: right;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
