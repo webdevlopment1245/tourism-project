@@ -6,8 +6,10 @@
     font-family: "poppins",sans-serif;
 }
 body{
-    background: greenyellow;
-    height: 100vh;
+  background-image: url("/public/image/simla.jpg");
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .wrapper{
     

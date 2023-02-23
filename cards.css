@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    text-align: center;
+    background-image: url(image/pic5.jpg);
+}
+
+.cards{
+    width: 20%;
+    background-color:skyblue;
+    border-radius: 5px;
+    margin: 40px;
+    box-shadow: 2px 2px 10px black;
+    display: inline-block;
+
+}
+.image img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+}
+.des{
+    text-align: center;
+}
+.checked{
+    
+color: yellow;  
+}
+
+
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+span:hover{
+    background-color:yellow;
+    color:black;
+    transition: .5s;
+}
